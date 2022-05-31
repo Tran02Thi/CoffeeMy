@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Home_Page_Coffee.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <!-- JS -->
+
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+      <!-- HEADER -->
+      	<div class="home_header">
+            	<img id="HEAD-logo" src="./logo.jpg" alt="">
+            	<div class="HEAD-nav_row">
+              		<li class="nav-row-btn">  <a href="#" id="text-effect"> <span>Trang Chủ </span> </a>  </li>  
+              		<li class="nav-row-btn">  <a href="#" id="text-effect"> <span>Tìm Hiểu  </span> </a>  </li>  
+              		<li class="nav-row-btn nav-row-btn_list">   <a id="text-effect" href="#"> <span>Thực Đơn  </span> </a>  
+              			<div class="menu_list">
+								<!-- Lớp Phủ -->
+                    			<div class="menu-carpet-glass"></div>
+
+								<!-- Menu row -->
+                    			<div class="menu-list-coffee">
+                      				<h3 id="list-title">COFFEE</h3>
+                      				<a id="list-singe" href="#">Cà Phê Phin</a>    
+                      				<a id="list-singe" href="#">Cà Phê ESPRESSO</a> 
+                      				<a id="list-singe" href="#">Cà Phê Đá Đen </a>    
+                      				<a id="list-singe" href="#">Cà Phê Tây Nguyên</a>
+                    			</div>
+                    			<div class="menu-list-tea">
+                      				<h3 id="list-title">TEA</h3>
+                      				<a id="list-singe" href="#">Trà Sen Vàng</a>    
+                   					<a id="list-singe" href="#">Trà Olong </a>    
+                      				<a id="list-singe" href="#">Trà Thạch Đào</a> 
+                      				<a id="list-singe" href="#">Trà Cam Quế</a>
+                    			</div>
+                   				 <div class="menu-list-food">
+                      				<h3 id="list-title">FOOD</h3>
+                     				<a id="list-singe" href="#">Điểm tâm Sáng</a>    
+                      				<a id="list-singe" href="#">Món Ăn Nhẹ </a>    
+                      				<a id="list-singe" href="#">Tráng Miệng</a> 
+                      				<a id="list-singe" href="#">Combo</a>
+                    			</div>
+
+								<!-- Menu con -->
+                    			<div class="menu-list-seler">
+                      				<a id="title-seler" href="#">Fhin Sữa</a>
+                      				<div id="best-list-img"> 			      <img src="./coffee-head-best-list-TayNguyen.jpg" alt="">  </div>      
+                      				<div class="best-list-title-sale">  SALE  <sup id="best-list-sale-star">  *  </sup>                 </div>
+                      				<div class="best-list-price-sale">         <del>  23.000  </del>                                    </div>
+                    			</div> 
+                  		</div>
+              		</li>
+              		<li class="nav-row-btn nav_row_btn-singe" > <a id="text-effect" href="#"> Khuyến Mãi </a> </li> 
+              		<li class="nav-row-btn nav_row_btn-singe" > <a id="text-effect" href="#"> Tin Tức    </a> </li> 
+            	</div>			
+    			<div class="HEAD-register">
+             			<button class="button">Đăng Ký / Đăng Nhập</button>     
+            	</div>
+      	</div>
+
+      <!-- CONTENT -->
+        <div class="home_content">
+
+            <div class="content_list_img">
+            	<img src="./tree.jpg" alt="" class="">
+            </div>
+
+            <div class="content_pc"> 
+            <div class="nav_row"> 
+                <img src="./head-list-food-banhmi.jpg" alt="">
+                <p> <del> 50.000 </del></p>
+                <div class="content-title-sale"> SALE <sup id="content-sale-star">*</sup></div>
+            </div>
+
+              <div class="nav_col_left">
+                  <img src="./head-list-coffee.jpg" alt="">
+                  <div class="title-coffee"> MACHINED COFFEE  </div>
+              </div>
+
+              <div class="nav_col_right_1">
+                <p>My Breakfast </p>
+                <div class="overlay">
+                    <img src="./head-list-coffee-tea.jpg" alt="">
+                </div>
+                    <img id="food-2" src="./head-list-food.jpg" alt="">
+              </div>
+
+              <div class="nav_col_right_2">
+					<img src="./story.jpg" alt="">
+					<p>Story</p>
+
+			  </div>
+              <div class="nav_col_right_bottom">
+                <video autoplay muted loop id="myVideo">
+                  <source src="./COFFEE MACRO & SLOW MOTION 4K.mp4" type="video/mp4">
+                </video>
+                <button id="status-video"  onclick="myFunction()">PAUSE</button>
+              </div>
+                                                                            <!-- JAVA -->
+                    <script>
+                                  var video = document.getElementById("myVideo");
+                                  var btn = document.getElementById("myBtn"); 
+                                  function myFunction() {
+                                    if (video.paused) {
+                                      video.play();
+                                  btn.innerHTML = "Pause";
+                                  } else {
+                                     video.pause();
+                                     btn.innerHTML = "Play";
+                                  }
+                                  }
+                    </script>   
+            </div>
+        </div>
+
+      
+    
+
+
+        
+        <!-- FOOTER -->
+        <div class="home_footer">
+        
+        </div>
+
+    </div>
+</body>
+</html>
